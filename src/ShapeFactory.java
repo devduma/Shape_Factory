@@ -1,3 +1,5 @@
+
+
 public abstract class ShapeFactory {
     private final int posX;
     private final int posY;
@@ -17,12 +19,12 @@ public abstract class ShapeFactory {
         return posY;
     }
 
-    /*
-    public static Shape getShape(String type){
-        ShapeFactory factory = (ShapeFactory) typeMap.get(type);
-        return factory.getShape();
+
+    public static Shape getShapes(){
+        //
+        Shape shapes = null;
+        return shapes;
     }
-    */
 
     public void desenhar(){
     }
