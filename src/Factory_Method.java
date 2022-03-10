@@ -2,8 +2,8 @@ import javax.swing.*;
 
 public class Factory_Method {
     public static void main(String[] args) {
-        DrawPanel panel = new DrawPanel();
 
+        DrawPanel panel = new DrawPanel();
         // cria um novo quadro/frame para armazenar o painel
         JFrame application = new JFrame();
 
@@ -11,7 +11,8 @@ public class Factory_Method {
         application.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         application.add(panel); //adiciona o painel ao frame
-        application.setSize(240,240); // tamanho do frame
+        application.setSize(200,250); // tamanho do frame
         application.setVisible(true); // torna o frame visível
     }
+
 }
